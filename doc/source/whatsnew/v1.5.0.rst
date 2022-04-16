@@ -454,6 +454,8 @@ Performance improvements
 
 Bug fixes
 ~~~~~~~~~
+- Bug in :func:`groupby.last()` that caused numpy arrays ordered with last with pd.NA to have dytype:Int64 type rather than dtype:Bool (:issue:`46409`)
+
 
 Categorical
 ^^^^^^^^^^^
